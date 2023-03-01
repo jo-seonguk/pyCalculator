@@ -3,6 +3,11 @@ import traceback
 import pymongo
 import openpyxl
 
+'''
+    mongoDB에 저장 로컬db여서 사용할때 실행해줘야함
+    기존 sql 문과 달라서 공부를 좀 더 해야함
+'''
+
 host = 'localhost'
 port = 27017
 
@@ -15,7 +20,7 @@ def main():
     wb = openpyxl.load_workbook(path + filename, data_only=True)
     ws = wb.active
 
-    ws = wb['정득환']
+    ws = wb['SHEETname']
 
     workList =[]
     
