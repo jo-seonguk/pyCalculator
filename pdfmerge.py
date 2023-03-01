@@ -3,7 +3,7 @@ import os
 import sys
 from tkinter.filedialog import askopenfilenames
 import datetime
-
+#pdf 파일 합치기 
 get_pdf = askopenfilenames(title='pdf 파일을 선택해주세요.',
                               initialdir=os.getcwd(),
                               filetypes=[("Adobe PDF 파일", "*.pdf")])
