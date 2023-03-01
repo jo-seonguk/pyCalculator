@@ -10,7 +10,10 @@ from selenium.webdriver.common.by import By
 import pandas as pd
 
 '''     실행이 안될경우 id, class 변수명 확인, td 순서 바뀌면 다시 해줘야함
-        크롬 드라이버 버전, 크롬 버전 최신인지 확인, 홈페이지 주소 확인        '''
+        크롬 드라이버 버전, 크롬 버전 최신인지 확인, 홈페이지 주소 확인        
+        
+
+'''
 
 # 검색어
 query = '안전점검'
