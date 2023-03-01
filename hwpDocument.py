@@ -2,6 +2,10 @@ import os
 import openpyxl
 import win32com.client as win32
 
+'''
+엑셀파일에 들어있는 데이터들을 한글파일에 자동으로 넣어주는 프로그램
+업무자동화
+'''
 path = '//DESKTOP-R4LHHT4/test/'
 dic = {}
 field1_list= ['field1_name', 'field1_birth', 'field1_position', 'field1_grade']
