@@ -3,6 +3,10 @@ from tkinter import *
 import tkinter as tk
 import tkinter.ttk
 
+'''
+엑셀 데이터를 자신이 원하는 설정으로 변경시켜줌
+기술자 분야, 경력, 인정비율 등
+'''
 root = tk.Tk()
 root.geometry("640x900")
 
