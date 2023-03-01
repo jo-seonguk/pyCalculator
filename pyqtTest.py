@@ -2,7 +2,7 @@ import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QGridLayout, QLineEdit, QVBoxLayout
 from PyQt5.QtCore import Qt
 
-
+#pyqt를 이용한 계산기 만들기
 class MyApp(QWidget):
     
     operator = ['+', '-', '×', '÷', '(', ')']
