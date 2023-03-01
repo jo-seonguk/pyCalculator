@@ -2,7 +2,9 @@ import sqlite3
 import os
 import openpyxl
 
-
+'''
+    SQLite 를 사용하여 엑셀 파일 데이터 DB에 저장
+'''
 
 db_path = os.getenv('HOME')+'/mydb.db'
 con = sqlite3.connect(db_path)
